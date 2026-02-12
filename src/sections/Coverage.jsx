@@ -2,11 +2,11 @@ import { useState } from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import { MapPin, ArrowRight, Loader2, Crosshair } from 'lucide-react';
 
-import { FALLBACK_COORDS, MAP_ZOOM } from '../utils/mapConfig';
-import LocationFinder from '../components/map/LocationFinder';
-import DraggableMarker from '../components/map/DraggableMarker';
-import { getWhatsAppLink } from '../utils/whatsapp';
-import { FadeIn } from '../components/ui/MotionWrappers';
+import { FALLBACK_COORDS, MAP_ZOOM } from '@/utils/mapConfig';
+import LocationFinder from '@/components/map/LocationFinder';
+import DraggableMarker from '@/components/map/DraggableMarker';
+import { getWhatsAppLink } from '@/utils/whatsapp';
+import { FadeIn } from '@/components/ui/MotionWrappers';
 
 export default function Coverage() {
     const [position, setPosition] = useState(FALLBACK_COORDS);

@@ -1,17 +1,17 @@
 import { useState, useEffect } from 'react';
 
-import LoadingScreen from './components/ui/LoadingScreen';
-import Navbar from './components/layout/Navbar';
-import Footer from './components/layout/Footer';
+import LoadingScreen from '@/components/ui/LoadingScreen';
+import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/layout/Footer';
 
-import Hero from './sections/Hero';
-import Testimonials from './sections/Testimonials';
-import Services from './sections/Services';
-import ArtistProfile from './sections/ArtistProfile';
-import Gallery from './sections/Gallery';
-import Pricing from './sections/Pricing';
-import Coverage from './sections/Coverage';
-import FAQ from './sections/FAQ';
+import Hero from '@/sections/Hero';
+import Testimonials from '@/sections/Testimonials';
+import Services from '@/sections/Services';
+import ArtistProfile from '@/sections/ArtistProfile';
+import Gallery from '@/sections/Gallery';
+import Pricing from '@/sections/Pricing';
+import Coverage from '@/sections/Coverage';
+import FAQ from '@/sections/FAQ';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mic2, Menu, X } from 'lucide-react';
-import { getWhatsAppLink } from '../../utils/whatsapp';
+import { getWhatsAppLink } from '@/utils/whatsapp';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
