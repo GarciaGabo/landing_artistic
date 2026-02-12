@@ -1,5 +1,5 @@
 import { Mic2, Music, Star, Award } from 'lucide-react';
-import { FadeIn, StaggerContainer, StaggerItem, ScaleOnHover } from '../components/ui/MotionWrappers';
+import { FadeIn, StaggerContainer, StaggerItem, ScaleOnHover } from '@/components/ui/MotionWrappers';
 
 export default function ArtistProfile() {
     return (

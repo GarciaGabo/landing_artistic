@@ -1,5 +1,5 @@
 import { Music, Heart, Video } from "lucide-react"
-import { FadeIn, StaggerContainer, StaggerItem } from '../components/ui/MotionWrappers';
+import { FadeIn, StaggerContainer, StaggerItem } from '@/components/ui/MotionWrappers';
 
 export default function Services() {
     return (

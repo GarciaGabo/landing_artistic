@@ -1,5 +1,5 @@
 import { Mic2, Instagram, Facebook, MessageCircle } from "lucide-react"
-import { getWhatsAppLink } from "../../utils/whatsapp"
+import { getWhatsAppLink } from "@/utils/whatsapp"
 
 export default function Footer() {
     return (

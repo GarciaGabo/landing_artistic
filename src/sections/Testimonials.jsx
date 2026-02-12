@@ -1,6 +1,6 @@
 import { Star, Quote } from 'lucide-react';
-import { FadeIn, StaggerContainer, StaggerItem } from '../components/ui/MotionWrappers';
-import { reviews } from '../data/content';
+import { FadeIn, StaggerContainer, StaggerItem } from '@/components/ui/MotionWrappers';
+import { reviews } from '@/data/content';
 
 export default function Testimonials() {
   return (

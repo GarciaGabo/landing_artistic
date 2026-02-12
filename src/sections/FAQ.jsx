@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Plus, Minus } from 'lucide-react';
-import { faqData } from '../data/content';
-import { FadeIn, StaggerContainer, StaggerItem } from '../components/ui/MotionWrappers';
+import { faqData } from '@/data/content';
+import { FadeIn, StaggerContainer, StaggerItem } from '@/components/ui/MotionWrappers';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function FAQ() {

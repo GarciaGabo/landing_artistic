@@ -1,5 +1,5 @@
 import { Sparkles, Heart, Mic2, Play } from 'lucide-react';
-import { FadeIn, StaggerContainer, StaggerItem, ScaleOnHover } from '../components/ui/MotionWrappers';
+import { FadeIn, StaggerContainer, StaggerItem, ScaleOnHover } from '@/components/ui/MotionWrappers';
 import { motion } from 'framer-motion';
 
 export default function Hero() {

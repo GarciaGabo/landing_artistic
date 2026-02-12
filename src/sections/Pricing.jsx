@@ -1,6 +1,6 @@
 import { Check } from 'lucide-react';
-import { getWhatsAppLink } from '../utils/whatsapp';
-import { FadeIn, StaggerContainer, StaggerItem, ScaleOnHover } from '../components/ui/MotionWrappers';
+import { getWhatsAppLink } from '@/utils/whatsapp';
+import { FadeIn, StaggerContainer, StaggerItem, ScaleOnHover } from '@/components/ui/MotionWrappers';
 
 export default function Pricing() {
     return (

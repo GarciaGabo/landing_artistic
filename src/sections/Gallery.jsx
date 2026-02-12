@@ -1,7 +1,7 @@
 import React from 'react';
 import { Instagram, Camera, ArrowUpRight } from 'lucide-react';
-import { galleryContent } from '../data/content';
-import { FadeIn, StaggerContainer, StaggerItem, ScaleOnHover } from '../components/ui/MotionWrappers';
+import { galleryContent } from '@/data/content';
+import { FadeIn, StaggerContainer, StaggerItem, ScaleOnHover } from '@/components/ui/MotionWrappers';
 
 export default function Gallery() {
   const { title, subtitle, instagramUrl, featured, gridImages } = galleryContent;
